@@ -1,0 +1,92 @@
+.device-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .device-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .device-card img {
+    width: 100%;
+    height: 180px; /* Constrain the image height */
+    object-fit: cover; /* Ensures the image scales without overflow */
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .device-details {
+    padding: 10px 0;
+  }
+  
+  .device-details h2 {
+    font-size: 1.4rem;
+    margin: 10px 0;
+  }
+  
+  .device-details p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+
+  .more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--button-text); /* Use theme-dependent text color */
+    background-color: var(--button-bg); /* Use theme-dependent background */
+    border: none;
+    border-radius: 25px; /* Rounded corners for modern look */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .more-button:hover {
+    background-color: var(--button-hover-bg); /* Theme-dependent hover background */
+    color: var(--button-hover-text); /* Theme-dependent hover text color */
+    transform: translateY(-3px); /* Slight pop-up effect */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  }
+
+  .more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--button-text); /* Use theme-dependent text color */
+    background-color: var(--button-bg); /* Use theme-dependent background */
+    border: none;
+    border-radius: 25px; /* Rounded corners for modern look */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .more-button:hover {
+    background-color: var(--button-hover-bg); /* Theme-dependent hover background */
+    color: var(--button-hover-text); /* Theme-dependent hover text color */
+    transform: translateY(-3px); /* Slight pop-up effect */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  }
+  
+  

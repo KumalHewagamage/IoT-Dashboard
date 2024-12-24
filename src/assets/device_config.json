@@ -1,0 +1,52 @@
+{
+    "devices": [
+        {
+            "name": "Freezer",
+            "temperature": 20.48,
+            "humidity": 35.85,
+            "co2": 442.49,
+            "fansState": true,
+            "lightsState": false,
+            "hvacState": true,
+            "location": "Freezer",
+            "topic": "temp1",
+            "image": "/location_img/freezer.png"
+        },
+        {
+            "name": "Room A",
+            "temperature": 26.85,
+            "humidity": 53.5,
+            "co2": 597.54,
+            "fansState": false,
+            "lightsState": false,
+            "hvacState": true,
+            "location": "Room A",
+            "topic": "temp2",
+            "image": "/location_img/a.png"
+        },
+        {
+            "name": "Room B",
+            "location": "Room B",
+            "topic": "temp3",
+            "image": "/location_img/b.png"
+        },
+        {
+            "name": "Chemical",
+            "location": "Chemical",
+            "topic": "temp4",
+            "image": "/location_img/Chemical.png"
+        },
+        {
+            "name": "dulmin",
+            "temperature": 28.6,
+            "humidity": 43.3,
+            "co2": 406,
+            "fansState": true,
+            "lightsState": true,
+            "hvacState": false,
+            "location": "dulmin",
+            "topic": "esptest",
+            "image": "/location_img/default.png"
+        }
+    ]
+}
